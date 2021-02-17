@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MeiTuan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="pingjia">评价</string>
+    <string name="shouye">首页</string>
+    <string name="shangjia">商家</string>
+    <string name="wode">我的</string>
+    <string name="gengduo">更多</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/main_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:minHeight="50dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_home"
+            style="@style/sy_tablehost"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_menu_home"
+            android:scaleType="matrix"
+            android:text="@string/shouye" />
+
+        <Button
+            android:id="@+id/btn_sj"
+            style="@style/sy_tablehost"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_menu_store"
+            android:scaleType="matrix"
+            android:text="@string/shangjia" />
+
+        <Button
+            android:id="@+id/btn_wd"
+            style="@style/sy_tablehost"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_menu_user"
+            android:onClick="onTabSelect"
+            android:scaleType="matrix"
+            android:text="@string/wode" />
+
+        <Button
+            android:id="@+id/btn_gd"
+            style="@style/sy_tablehost"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/ic_menu_more"
+            android:scaleType="matrix"
+            android:text="@string/gengduo" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/main_bottom"
+        >
+    </RelativeLayout>
+
+</RelativeLayout>

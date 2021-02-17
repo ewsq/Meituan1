@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="private_mes" parent="android:Theme.Light"></style>
+
+    <!-- 商家名称 -->
+    <style name="item_sj_storename">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <!-- 商家地址style -->
+    <style name="item_sj_add">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="roomRatingBar1">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/ic_rating_star_small_off</item>
+        <item name="android:indeterminateDrawable">@drawable/ic_rating_star_small_off</item>
+        <item name="android:minHeight">18dip</item>
+        <item name="android:maxHeight">18dip</item>
+        <item name="android:thumb">@null</item>
+        <item name="android:isIndicator">true</item>
+    </style>
+
+    <!-- 首页tablehost -->
+    <style name="sy_tablehost">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:background">@color/grey</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    
+        <!-- 分类菜单 -->
+    <style name="ic_category_text">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+</resources>
